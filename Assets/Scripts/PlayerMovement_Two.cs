@@ -55,9 +55,9 @@ public class PlayerMovement_Two : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(spherePos, controller.radius - 0.05f);
-    }
+    }*/
 }
